@@ -1,4 +1,4 @@
-{% set version = '2.2.0' %}
+{% set version = '2.3.0' %}
 
 package:
   name: r-seurat
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/Seurat_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/Seurat/Seurat_{{ version }}.tar.gz
-  sha256: bc4e0fd07b944a980cae70ac26387793be763f0807b973f926d34dea17fc59f9
+  sha256: 209f6e893c35b811f48571a307c82ad5f2f31846978b6e9a9cdf24a403a7e34e
 
 build:
   number: 0
